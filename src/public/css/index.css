@@ -1,0 +1,157 @@
+.content__toolbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 40px;
+    height: 50px;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    padding: 0 40px;
+    gap: 20px;
+}
+
+.content__toolbar__ttl{
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0;
+    color: #333333;
+}
+
+.content__toolbar__link{
+    padding: 13px 20px;
+    background-color: #FFA929;
+    box-shadow: 0px 4px 10px 0px #0000001A;
+    text-decoration: none;
+}
+
+.content__toolbar__link:active{
+    background-color:#DF9425;
+}
+
+.content__controls{
+    width: 240px;
+    height: 267px;
+}
+
+::placeholder {
+    color: #E0DFDE;
+}
+
+.content__controls__search--input{
+    width: 100%;
+    height: 50px;
+    padding: 14.5px 10px;
+    border-radius: 25px;
+    border: 1px solid #E0DFDE;
+    background-color: #fff;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 300;
+    font-size: 14px;
+    color: #333333;
+
+    margin-bottom: 20px;
+}
+
+.content__controls__search--btn {
+    width: 100%;
+    background: #F5C800;
+    height: 44px;
+    gap: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 0px #0000001A;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 600;
+    font-size: 16px;
+    color: #4B4B4B;
+}
+
+.content__controls__search--btn:active{
+    background: #DDB400;
+}
+
+.content__controls__display p { 
+    color: #333333;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 600;
+    font-size: 20px;
+    width: 120px;
+    height: 30px;
+}
+
+.content__controls__display select {
+    width: 100%;
+    height: 43px;
+    padding-top: 11px 10px;
+    border-radius: 5px;
+    border: 1px solid #E0DFDE;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+.pagination{
+    margin: 0 auto;
+    padding: 40px 0 70px;
+}
+
+.content__cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card{
+    flex: 1 1 calc(33.333% - 30px);
+    max-width: calc(33.333% - 30px);
+    text-align: center;
+    /* width: 374px; */
+    /* height: 350px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #0000001A;
+    border: none;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.card a:hover{
+    opacity: 70%;
+}
+
+.card__img{
+    width: 100%;
+    max-height: 281px;
+}
+
+.card__img img{
+    width: 100%;
+    height: 100%;
+}
+
+.card__txt{
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    padding: 20px;
+}
+
+.card__txt p{
+    color: #4B4B4B;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+
+
