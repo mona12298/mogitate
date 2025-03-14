@@ -1,0 +1,167 @@
+.content__ttl {
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 600;
+    font-size: 32px;
+    color: #333333;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.form {
+    width: 760px;
+    margin: 0 auto;
+}
+
+.form__item__label, .form__item label{
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 300;
+    font-size: 16px;
+    color: #4B4B4B;
+}
+
+.form__item__label-required{
+    color: #FFFFFF;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 300;
+    font-size: 12px;
+    width: 34px;
+    height: 18px;
+    padding: 0 5px;
+    background: #FD0707;
+    margin: 10px;
+}
+
+.form__item__label-multiple{
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 300;
+    font-size: 12px;
+    color: #FD0707;
+}
+
+.form__item__input{
+    width: 760px;
+    height: 43px;
+    padding: 11px 10px;
+    border-radius: 5px;
+    border: 1px solid #E0DFDE;
+}
+
+::placeholder {
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 300;
+    font-size: 14px;
+    color: #E0DFDE;
+}
+
+.form__item__file{
+    display: flex;
+    height: 31px;
+    gap: 10px;
+    align-items: center;
+}
+
+.image-input{
+    padding: 5px 10px;
+    border: 1px solid #4B4B4B;
+    background: #E0DFDE;
+    color: #4B4B4B;
+    cursor: pointer;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.file-label{
+    color: #888888;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 300;
+    font-size: 14px;
+}
+
+input[type="file"]{
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.form__item-set{
+    display: flex;
+    width: 314px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__item-set label:not(:nth-of-type(4)){
+    padding-right: 50px;
+}
+
+.form__item__checkbox{
+    appearance: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 1px solid #4B4B4B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__item__checkbox:checked {
+    background-color: #4B4B4B;
+    background-image: url('../images/レイヤー 2.png');
+    background-size: 16px 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form__item__textarea{
+    width: 100%;
+    height: 160px;
+    padding: 11px 10px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #E0DFDE;
+}
+
+.form__btn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form__btn--back{
+    width: 200px;
+    height: 50px;
+    padding: 13px 10px;
+    border-radius: 5px;
+    border: none;
+    background: #E0DFDE;
+    box-shadow: 0px 4px 10px 0px #0000001A;
+    text-decoration: none;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+}
+
+.form__btn--register{
+    width: 200px;
+    height: 50px;
+    padding: 13px 10px;
+    border-radius: 5px;
+    border: none;
+    background: #F5C800;
+    box-shadow: 0px 4px 10px 0px #0000001A;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
