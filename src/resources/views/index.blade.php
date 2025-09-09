@@ -19,7 +19,7 @@
                     <input type="submit" value="検索" class="content__controls__search--btn">
                 </div>
                 <div class="content__controls__display">
-                    <p>価格順で表示aaa</p>
+                    <p>価格順で表示bbb</p>
                     <select name="sort_order" id="sort_order" class="content__controls__display">
                         <option value=""></option>
                         <option value="price_asc" {{ $sort === 'price' && $direction === 'asc' ? 'selected' : '' }}>価格の低い順</option>
